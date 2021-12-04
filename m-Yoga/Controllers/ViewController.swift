@@ -10,9 +10,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var yogaImage: UIImageView!
-    @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var dateLabel: UILabel!
     
+    @IBOutlet weak var sosButton: UIButton!
     @IBOutlet weak var startPracitce: UIButton!
     @IBOutlet weak var dojoImage: UIImageView!
     @IBOutlet weak var dojoPractice: UIButton!
@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         let day = calendar.component(.day, from: date)
         let year = calendar.component(.year, from: date)
         
+        sosButton.layer.cornerRadius = 20
         startPracitce.layer.cornerRadius = 20
         dojoPractice.layer.cornerRadius = 20
         dojoImage.layer.cornerRadius = 20
@@ -49,13 +50,15 @@ class ViewController: UIViewController {
 
     
     @IBAction func level1Pressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "1pressed", sender: self)
+        self.performSegue(withIdentifier: "1Pressed", sender: self)
     }
     
     
+    @IBAction func sosButtonPressed(_ sender: UIButton) {
+        
+    }
     
-    
-    
+
 }
 
 class Core {
