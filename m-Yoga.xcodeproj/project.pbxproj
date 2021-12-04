@@ -14,6 +14,13 @@
 		4870D6472723A9780022EA7F /* m_Yoga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6452723A9780022EA7F /* m_Yoga.xcdatamodeld */; };
 		4870D6492723A97A0022EA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4870D6482723A97A0022EA7F /* Assets.xcassets */; };
 		4870D64C2723A97A0022EA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4870D64A2723A97A0022EA7F /* LaunchScreen.storyboard */; };
+		4870D6542723AA310022EA7F /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6532723AA310022EA7F /* welcomeViewController.swift */; };
+		4870D6562723AEDF0022EA7F /* finalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6552723AEDF0022EA7F /* finalViewController.swift */; };
+		4870D65827246CD60022EA7F /* AdditionalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */; };
+		48A15E392725EA9B008D1CD7 /* workoutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A15E382725EA9B008D1CD7 /* workoutPageViewController.swift */; };
+		48A15E3B27287C7A008D1CD7 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A15E3A27287C7A008D1CD7 /* workoutViewController.swift */; };
+		48DE3599274F385C00F87B30 /* head presses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48DE3598274F385B00F87B30 /* head presses.mp4 */; };
+		914FBC2FD3B6861960010176 /* Pods_m_Yoga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0D9B698E258E1C0B55475A /* Pods_m_Yoga.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,15 @@
 		4870D6482723A97A0022EA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4870D64B2723A97A0022EA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4870D64D2723A97A0022EA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4870D6532723AA310022EA7F /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		4870D6552723AEDF0022EA7F /* finalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalViewController.swift; sourceTree = "<group>"; };
+		4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoViewController.swift; sourceTree = "<group>"; };
+		48A15E382725EA9B008D1CD7 /* workoutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutPageViewController.swift; sourceTree = "<group>"; };
+		48A15E3A27287C7A008D1CD7 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
+		48DE3598274F385B00F87B30 /* head presses.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "head presses.mp4"; sourceTree = "<group>"; };
+		4B0D9B698E258E1C0B55475A /* Pods_m_Yoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_m_Yoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC2738763EF188BF75374F1 /* Pods-m-Yoga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m-Yoga.debug.xcconfig"; path = "Target Support Files/Pods-m-Yoga/Pods-m-Yoga.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2899F3F147BBE45636C908 /* Pods-m-Yoga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m-Yoga.release.xcconfig"; path = "Target Support Files/Pods-m-Yoga/Pods-m-Yoga.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914FBC2FD3B6861960010176 /* Pods_m_Yoga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				4870D63B2723A9780022EA7F /* m-Yoga */,
 				4870D63A2723A9780022EA7F /* Products */,
+				B80D86D8F84BDE066BA572D5 /* Pods */,
+				C4931B74A1854744B9AA2020 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +77,64 @@
 		4870D63B2723A9780022EA7F /* m-Yoga */ = {
 			isa = PBXGroup;
 			children = (
+				48DE3598274F385B00F87B30 /* head presses.mp4 */,
 				4870D63C2723A9780022EA7F /* AppDelegate.swift */,
 				4870D63E2723A9780022EA7F /* SceneDelegate.swift */,
-				4870D6402723A9780022EA7F /* ViewController.swift */,
-				4870D6422723A9780022EA7F /* Main.storyboard */,
+				48A15E3D27287C88008D1CD7 /* Model */,
+				48A15E3E27287C92008D1CD7 /* View */,
+				48A15E3C27287C80008D1CD7 /* Controllers */,
 				4870D6482723A97A0022EA7F /* Assets.xcassets */,
 				4870D64A2723A97A0022EA7F /* LaunchScreen.storyboard */,
 				4870D64D2723A97A0022EA7F /* Info.plist */,
-				4870D6452723A9780022EA7F /* m_Yoga.xcdatamodeld */,
 			);
 			path = "m-Yoga";
+			sourceTree = "<group>";
+		};
+		48A15E3C27287C80008D1CD7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4870D6402723A9780022EA7F /* ViewController.swift */,
+				4870D6532723AA310022EA7F /* welcomeViewController.swift */,
+				4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */,
+				4870D6552723AEDF0022EA7F /* finalViewController.swift */,
+				48A15E382725EA9B008D1CD7 /* workoutPageViewController.swift */,
+				48A15E3A27287C7A008D1CD7 /* workoutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		48A15E3D27287C88008D1CD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4870D6452723A9780022EA7F /* m_Yoga.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48A15E3E27287C92008D1CD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4870D6422723A9780022EA7F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B80D86D8F84BDE066BA572D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2738763EF188BF75374F1 /* Pods-m-Yoga.debug.xcconfig */,
+				AF2899F3F147BBE45636C908 /* Pods-m-Yoga.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4931B74A1854744B9AA2020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D9B698E258E1C0B55475A /* Pods_m_Yoga.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4870D6502723A97A0022EA7F /* Build configuration list for PBXNativeTarget "m-Yoga" */;
 			buildPhases = (
+				CAB17F95DBAA37080FC57CA1 /* [CP] Check Pods Manifest.lock */,
 				4870D6352723A9780022EA7F /* Sources */,
 				4870D6362723A9780022EA7F /* Frameworks */,
 				4870D6372723A9780022EA7F /* Resources */,
+				379142971C324B70243CC841 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +199,54 @@
 			files = (
 				4870D64C2723A97A0022EA7F /* LaunchScreen.storyboard in Resources */,
 				4870D6492723A97A0022EA7F /* Assets.xcassets in Resources */,
+				48DE3599274F385C00F87B30 /* head presses.mp4 in Resources */,
 				4870D6442723A9780022EA7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		379142971C324B70243CC841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-m-Yoga/Pods-m-Yoga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-m-Yoga/Pods-m-Yoga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-m-Yoga/Pods-m-Yoga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB17F95DBAA37080FC57CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-m-Yoga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4870D6352723A9780022EA7F /* Sources */ = {
@@ -142,9 +254,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4870D6412723A9780022EA7F /* ViewController.swift in Sources */,
+				48A15E392725EA9B008D1CD7 /* workoutPageViewController.swift in Sources */,
 				4870D63D2723A9780022EA7F /* AppDelegate.swift in Sources */,
 				4870D63F2723A9780022EA7F /* SceneDelegate.swift in Sources */,
+				4870D6562723AEDF0022EA7F /* finalViewController.swift in Sources */,
+				4870D65827246CD60022EA7F /* AdditionalInfoViewController.swift in Sources */,
+				4870D6542723AA310022EA7F /* welcomeViewController.swift in Sources */,
 				4870D6472723A9780022EA7F /* m_Yoga.xcdatamodeld in Sources */,
+				48A15E3B27287C7A008D1CD7 /* workoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +405,11 @@
 		};
 		4870D6512723A97A0022EA7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC2738763EF188BF75374F1 /* Pods-m-Yoga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 68QLQDXK9K;
@@ -308,6 +427,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adityamittal.CoreDataTest.m-Yoga";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,9 +436,11 @@
 		};
 		4870D6522723A97A0022EA7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2899F3F147BBE45636C908 /* Pods-m-Yoga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 68QLQDXK9K;
@@ -336,6 +458,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adityamittal.CoreDataTest.m-Yoga";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
