@@ -46,7 +46,7 @@ class welcomeViewController: UIViewController {
         striveButton.layer.borderWidth = 2
         striveButton.layer.borderColor = CGColor.init(gray: 100, alpha: 10)
         
-        continueButton.layer.cornerRadius = 10
+        continueButton.layer.cornerRadius = 20
     }
 
     @IBAction func buttonTapped(_ sender: Any) {

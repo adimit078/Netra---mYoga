@@ -25,10 +25,10 @@ class workoutViewController: UIViewController {
         
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
         
-        //let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "head presses", ofType: "mp4")!))
-        //let layer = AVPlayerLayer(player: player)
-        //layer.frame = view.bounds
-        //playerView.layer.addSublayer(layer)
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "head presses", ofType: "mp4")!))
+        let layer = AVPlayerLayer(player: player)
+        layer.frame = view.bounds
+        playerView.layer.addSublayer(layer)
         
         endButton.layer.cornerRadius = 20
         skipButton.layer.cornerRadius = 20

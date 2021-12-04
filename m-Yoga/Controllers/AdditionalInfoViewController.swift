@@ -14,7 +14,7 @@ class AdditionalInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        continueButton.layer.cornerRadius = 30
+        continueButton.layer.cornerRadius = 20
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         

@@ -27,7 +27,7 @@ class finalViewController: UIViewController {
         otherButton.layer.borderWidth = 2
         otherButton.layer.backgroundColor = CGColor.init(gray: 70, alpha: 7)
         
-        continueButton.layer.cornerRadius = 30
+        continueButton.layer.cornerRadius = 20
     }
     
     var male = false
