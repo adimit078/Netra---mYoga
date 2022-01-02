@@ -17,13 +17,13 @@ class finalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        maleButton.layer.cornerRadius = 60
+        maleButton.layer.cornerRadius = 20
         maleButton.layer.borderWidth = 2
         maleButton.layer.backgroundColor = CGColor.init(gray: 70, alpha: 7)
-        femaleButton.layer.cornerRadius = 60
+        femaleButton.layer.cornerRadius = 20
         femaleButton.layer.borderWidth = 2
         femaleButton.layer.backgroundColor = CGColor.init(gray: 70, alpha: 7)
-        otherButton.layer.cornerRadius = 60
+        otherButton.layer.cornerRadius = 20
         otherButton.layer.borderWidth = 2
         otherButton.layer.backgroundColor = CGColor.init(gray: 70, alpha: 7)
         

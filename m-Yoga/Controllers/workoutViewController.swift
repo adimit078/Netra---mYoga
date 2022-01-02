@@ -15,6 +15,7 @@ class workoutViewController: UIViewController {
 
     @IBOutlet weak var timerLabel: UILabel!
     var timer = 30
+    var counter = Int()
     @IBOutlet var playerView: YTPlayerView!
     
     @IBOutlet weak var endButton: UIButton!
@@ -22,6 +23,8 @@ class workoutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        counter = 0
         
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
         
@@ -42,6 +45,12 @@ class workoutViewController: UIViewController {
             skipButton.setTitle("NEXT", for: .normal)
         }
     }
+    
+    @IBAction func skipPressed(_ sender: UIButton) {
+        counter += 1
+        print(counter)
+    }
+    
     
 
     /*
