@@ -9,34 +9,68 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var yogaImage: UIImageView!
-    @IBOutlet weak var dateLabel: UILabel!
     
-    @IBOutlet weak var sosButton: UIButton!
-    @IBOutlet weak var startPracitce: UIButton!
-    @IBOutlet weak var dojoImage: UIImageView!
-    @IBOutlet weak var dojoPractice: UIButton!
+    //Images
+    @IBOutlet weak var profilePic: UIImageView!
+    @IBOutlet weak var regImage: UIImageView!
+    @IBOutlet weak var dojImage: UIImageView!
+    @IBOutlet weak var sosImage: UIImageView!
+    
+    //Labels
+    @IBOutlet weak var regWeeksLabel: UILabel!
+    @IBOutlet weak var dojWeeksLabel: UILabel!
+    @IBOutlet weak var sosWeeksLabel: UILabel!
+    
+    //Buttons
+    @IBOutlet weak var regStartButton: UIButton!
+    
+    
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var dojStartButton: UIButton!
+    @IBOutlet weak var sosStartButton: UIButton!
+    
+    @IBOutlet weak var regViewAll: UIButton!
+    @IBOutlet weak var dojViewAll: UIButton!
+    @IBOutlet weak var sosViewAll: UIButton!
+    
+    //Views
+    @IBOutlet weak var controlView: UIView!
     
     var date = Date()
     var calendar = Calendar.current
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //Image Structs
+        profilePic.layer.cornerRadius = 1
+        regImage.layer.cornerRadius = 20
+        dojImage.layer.cornerRadius = 20
+        sosImage.layer.cornerRadius = 20
         
-        yogaImage.layer.cornerRadius = 20
+        //Label Structs
+        regWeeksLabel.layer.masksToBounds = true
+        regWeeksLabel.layer.cornerRadius = 10
+        dojWeeksLabel.layer.masksToBounds = true
+        dojWeeksLabel.layer.cornerRadius = 10
+        sosWeeksLabel.layer.masksToBounds = true
+        sosWeeksLabel.layer.cornerRadius = 10
         
+        //Button Structs
+        regStartButton.layer.cornerRadius = 20
+        dojStartButton.layer.cornerRadius = 20
+        sosStartButton.layer.cornerRadius = 20
+        
+        //View Structs
+        controlView.layer.borderWidth = 1
+        
+        //Date Calculations
         let month = calendar.component(.month, from: date)
         let day = calendar.component(.day, from: date)
         let year = calendar.component(.year, from: date)
-        
-        sosButton.layer.cornerRadius = 20
-        startPracitce.layer.cornerRadius = 20
-        dojoPractice.layer.cornerRadius = 20
-        dojoImage.layer.cornerRadius = 20
-        
+
         print("it is \(month) \(day), \(year)")
         dateLabel.text = "\(month)/\(day)/\(year)"
+        
     }
     
     override func viewDidLayoutSubviews() {
