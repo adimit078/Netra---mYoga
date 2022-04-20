@@ -23,7 +23,7 @@ class AdditionalInfoViewController: UIViewController {
     
 
     @IBAction func continuePressed(_ sender: UIButton) {
-        Core.shared.setIsNotNewUser()
+        //Core.shared.setIsNotNewUser()
         self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
         return
     }

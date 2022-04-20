@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48160997281083CF00B89555 /* setUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48160996281083CF00B89555 /* setUpViewController.swift */; };
+		482725F2280F390200B220E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482725F1280F390200B220E3 /* HomeViewController.swift */; };
+		485DFEFD280FC37900C772E2 /* exercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485DFEFC280FC37900C772E2 /* exercisesViewController.swift */; };
 		4870D63D2723A9780022EA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D63C2723A9780022EA7F /* AppDelegate.swift */; };
 		4870D63F2723A9780022EA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D63E2723A9780022EA7F /* SceneDelegate.swift */; };
-		4870D6412723A9780022EA7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6402723A9780022EA7F /* ViewController.swift */; };
 		4870D6442723A9780022EA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4870D6422723A9780022EA7F /* Main.storyboard */; };
 		4870D6472723A9780022EA7F /* m_Yoga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6452723A9780022EA7F /* m_Yoga.xcdatamodeld */; };
 		4870D6492723A97A0022EA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4870D6482723A97A0022EA7F /* Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		4870D6542723AA310022EA7F /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6532723AA310022EA7F /* welcomeViewController.swift */; };
 		4870D6562723AEDF0022EA7F /* finalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D6552723AEDF0022EA7F /* finalViewController.swift */; };
 		4870D65827246CD60022EA7F /* AdditionalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */; };
-		48A15E392725EA9B008D1CD7 /* workoutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A15E382725EA9B008D1CD7 /* workoutPageViewController.swift */; };
 		48A15E3B27287C7A008D1CD7 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A15E3A27287C7A008D1CD7 /* workoutViewController.swift */; };
 		48B5628E275C0F650050E406 /* upcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5628D275C0F650050E406 /* upcomingViewController.swift */; };
 		48DE3599274F385C00F87B30 /* head presses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48DE3598274F385B00F87B30 /* head presses.mp4 */; };
@@ -25,10 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48160996281083CF00B89555 /* setUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setUpViewController.swift; sourceTree = "<group>"; };
+		482725F1280F390200B220E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		485DFEFC280FC37900C772E2 /* exercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercisesViewController.swift; sourceTree = "<group>"; };
 		4870D6392723A9780022EA7F /* m-Yoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "m-Yoga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4870D63C2723A9780022EA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4870D63E2723A9780022EA7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4870D6402723A9780022EA7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4870D6432723A9780022EA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4870D6462723A9780022EA7F /* m_Yoga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = m_Yoga.xcdatamodel; sourceTree = "<group>"; };
 		4870D6482723A97A0022EA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,7 +40,6 @@
 		4870D6532723AA310022EA7F /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		4870D6552723AEDF0022EA7F /* finalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalViewController.swift; sourceTree = "<group>"; };
 		4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoViewController.swift; sourceTree = "<group>"; };
-		48A15E382725EA9B008D1CD7 /* workoutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutPageViewController.swift; sourceTree = "<group>"; };
 		48A15E3A27287C7A008D1CD7 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
 		48B5628D275C0F650050E406 /* upcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upcomingViewController.swift; sourceTree = "<group>"; };
 		48DE3598274F385B00F87B30 /* head presses.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "head presses.mp4"; sourceTree = "<group>"; };
@@ -58,6 +60,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4816099428106FA700B89555 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4870D6532723AA310022EA7F /* welcomeViewController.swift */,
+				4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */,
+				4870D6552723AEDF0022EA7F /* finalViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4816099528106FF700B89555 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				482725F1280F390200B220E3 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		485DFEFB280FC34700C772E2 /* Reg Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				48B5628D275C0F650050E406 /* upcomingViewController.swift */,
+				485DFEFC280FC37900C772E2 /* exercisesViewController.swift */,
+				48160996281083CF00B89555 /* setUpViewController.swift */,
+			);
+			path = "Reg Exercises";
+			sourceTree = "<group>";
+		};
 		4870D6302723A9780022EA7F = {
 			isa = PBXGroup;
 			children = (
@@ -95,13 +125,10 @@
 		48A15E3C27287C80008D1CD7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4870D6402723A9780022EA7F /* ViewController.swift */,
-				4870D6532723AA310022EA7F /* welcomeViewController.swift */,
-				4870D65727246CD60022EA7F /* AdditionalInfoViewController.swift */,
-				4870D6552723AEDF0022EA7F /* finalViewController.swift */,
-				48A15E382725EA9B008D1CD7 /* workoutPageViewController.swift */,
+				4816099528106FF700B89555 /* Home */,
+				4816099428106FA700B89555 /* Onboarding */,
+				485DFEFB280FC34700C772E2 /* Reg Exercises */,
 				48A15E3A27287C7A008D1CD7 /* workoutViewController.swift */,
-				48B5628D275C0F650050E406 /* upcomingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -255,14 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4870D6412723A9780022EA7F /* ViewController.swift in Sources */,
-				48A15E392725EA9B008D1CD7 /* workoutPageViewController.swift in Sources */,
+				48160997281083CF00B89555 /* setUpViewController.swift in Sources */,
 				4870D63D2723A9780022EA7F /* AppDelegate.swift in Sources */,
 				4870D63F2723A9780022EA7F /* SceneDelegate.swift in Sources */,
 				4870D6562723AEDF0022EA7F /* finalViewController.swift in Sources */,
 				4870D65827246CD60022EA7F /* AdditionalInfoViewController.swift in Sources */,
 				48B5628E275C0F650050E406 /* upcomingViewController.swift in Sources */,
+				482725F2280F390200B220E3 /* HomeViewController.swift in Sources */,
 				4870D6542723AA310022EA7F /* welcomeViewController.swift in Sources */,
+				485DFEFD280FC37900C772E2 /* exercisesViewController.swift in Sources */,
 				4870D6472723A9780022EA7F /* m_Yoga.xcdatamodeld in Sources */,
 				48A15E3B27287C7A008D1CD7 /* workoutViewController.swift in Sources */,
 			);
@@ -410,8 +438,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BC2738763EF188BF75374F1 /* Pods-m-Yoga.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -422,6 +450,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,7 +463,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -442,8 +471,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF2899F3F147BBE45636C908 /* Pods-m-Yoga.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -454,6 +483,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,7 +496,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
